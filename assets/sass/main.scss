@@ -1,0 +1,49 @@
+$bg-silver:#EEEEEE;
+$gray: #8B8B8B;
+$bg-light-black:#514849;
+$light-red:#E48080;
+$black:#050505;
+
+
+h5{
+	color:$black;
+}
+
+p{
+	color:$gray;
+}
+
+
+header{
+	.header-default{
+		background-color:$bg-silver;
+		color:$gray;
+		ul{
+			
+			list-style:none;
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			a{
+				text-decoration: none;
+				color:$gray;
+				margin-right: 10px;
+			}
+		}
+	}
+}
+
+.header-logo{
+	padding: 70px 0 70px 0;
+	.clock-time{
+		display:flex;
+		flex-direction:row;
+		justify-content:flex-start;
+		align-content:center;
+		i{
+			font-size:60px;
+			color:$bg-light-black;
+		}
+	}
+}
+
